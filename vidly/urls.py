@@ -20,8 +20,8 @@ from movies.models import Movie
 from . import views
 movie_resource = MovieResource()
 urlpatterns = [
-    path('',views.home), 
+    path('', views.home),
     path('admin/', admin.site.urls),
     path('', include('movies.urls')),
-    path('api/',include(movie_resource.urls))
+    path('api/', include(movie_resource.urls))
 ]

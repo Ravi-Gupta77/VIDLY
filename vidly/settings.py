@@ -27,7 +27,7 @@ SECRET_KEY = 'cz)2a3@7vf3fgud$wx8*_a3#h-*-$=rpuk=08&c5t0fc3e^z*k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['aqueous-depths-94510.herokuapp.com']
 
 
 # Application definition
